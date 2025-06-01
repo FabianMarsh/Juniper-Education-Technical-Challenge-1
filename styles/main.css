@@ -55,17 +55,15 @@
 
 :root {
     /* Colours */
-    --pri-bg-col: #132a4c;
+    --pri-bg-col: #030E1C;
     --sec-bg-col: #2b7dad;
-    --ter-bg-col: #449acd;
+    --ter-bg-col: #5EB3E4;
     --pri-col: #fff;
     --sec-col: #5db1e6;
 
     /* Typography */
     --font-main: 'Figtree', sans-serif;
     --font-secondary: 'Noto Serif', serif;
-    --font-size-base: 16px;
-    --font-size-large: 24px;
 }
 
 /* resets *********************************************/
@@ -74,4 +72,72 @@ button {
     all: unset;
     display: inline-block;
     cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+/* header *********************************************/
+
+header {
+    font-family: var(--font-main);
+    color: var(--pri-col);
+}
+
+/* nav */
+
+.nav__button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    height: 44px;
+
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 5px;
+
+    position: fixed;
+    top: 40px;
+    right: 30px;
+}
+
+.nav__button:hover .nav__button__icon {
+    transform: rotate(90deg);
+    gap: 12px;
+}
+
+.nav__button:hover .nav__button__icon__line {
+    background-color: var(--sec-col);
+}
+
+.nav__button__icon {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    transition: all 0.3s ease;
+}
+
+.nav__button__icon__line {
+    display: block;
+    background-color: var(--pri-col);
+    width: 30px;
+    height: 4px;
+
+    transition: background 0.3s ease-in-out;
+}
+
+
+/* body *********************************************/
+
+body {
+    background: linear-gradient(to bottom, var(--sec-bg-col), var(--pri-bg-col));
+    height: 100vh;
+    max-height: 100vh;
+    
+    font-family: var(--font-main);
+    color: var(--pri-col);
+}
+
+
 }
