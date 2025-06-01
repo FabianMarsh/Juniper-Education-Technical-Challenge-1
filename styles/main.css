@@ -139,5 +139,39 @@ body {
     color: var(--pri-col);
 }
 
+/* isi report *********************************************/
 
+.isi {
+    display: flex;
+    justify-content: center;
+}
+
+.isi__link {
+    margin: 50px 0;
+    padding: 22px 42px;
+    border: 2px solid var(--pri-col);
+    
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+
+    span {
+        transition: transform 0.3s ease;
+    }
+}
+
+.isi__link:hover {
+    
+    background-color: var(--pri-col);
+    color: var(--sec-col);
+
+    transform: scale(.98);
+
+    span {
+        transform: scale(1.05);
+    }
 }
