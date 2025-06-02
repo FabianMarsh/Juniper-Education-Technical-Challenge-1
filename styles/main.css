@@ -66,7 +66,7 @@
     --font-sec: 'Figtree', sans-serif;
 }
 
-/* resets *********************************************/
+/* resets/presets *********************************************/
 
 button {
     all: unset;
@@ -75,6 +75,9 @@ button {
     text-transform: uppercase;
 }
 
+h1 {
+    font-size: clamp(20px, 6vw, 50px);
+}
 
 /* header *********************************************/
 
@@ -170,3 +173,9 @@ body {
 }
 
 /* tower house by numbers *********************************************/
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
