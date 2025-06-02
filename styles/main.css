@@ -62,8 +62,8 @@
     --sec-col: #5db1e6;
 
     /* Typography */
-    --font-main: 'Figtree', sans-serif;
-    --font-secondary: 'Noto Serif', serif;
+    --font-pri: 'Noto Serif', serif;
+    --font-sec: 'Figtree', sans-serif;
 }
 
 /* resets *********************************************/
@@ -79,7 +79,7 @@ button {
 /* header *********************************************/
 
 header {
-    font-family: var(--font-main);
+    font-family: var(--font-pri);
     color: var(--pri-col);
 }
 
@@ -92,6 +92,7 @@ header {
 
     height: 44px;
 
+    font-family: var(--font-sec);
     font-size: 25px;
     font-weight: 500;
     letter-spacing: 5px;
@@ -135,7 +136,7 @@ body {
     height: 100vh;
     max-height: 100vh;
     
-    font-family: var(--font-main);
+    font-family: var(--font-pri);
     color: var(--pri-col);
 }
 
@@ -149,7 +150,7 @@ body {
 .isi__link {
     margin: 50px 0;
     padding: 22px 42px;
-    border: 2px solid var(--pri-col);
+    box-shadow: 0px 0px 0px 2px var(--pri-col);
     
     letter-spacing: 2.5px;
     text-transform: uppercase;
@@ -157,11 +158,7 @@ body {
 
     cursor: pointer;
 
-    transition: transform 0.3s ease;
-
-    span {
-        transition: transform 0.3s ease;
-    }
+    transition: all 0.3s ease;
 }
 
 .isi__link:hover {
@@ -169,9 +166,7 @@ body {
     background-color: var(--pri-col);
     color: var(--sec-col);
 
-    transform: scale(.98);
-
-    span {
-        transform: scale(1.05);
-    }
+    box-shadow: 0px 0px 0px 0px var(--pri-col);
 }
+
+/* tower house by numbers *********************************************/
