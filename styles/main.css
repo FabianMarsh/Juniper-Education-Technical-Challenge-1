@@ -118,6 +118,7 @@ header {
     position: fixed;
     top: 40px;
     right: 30px;
+    z-index: 99;
 }
 
 .nav__button:hover .nav__button__icon {

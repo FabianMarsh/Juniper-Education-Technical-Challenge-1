@@ -1,6 +1,7 @@
 const swiperIcons = new Swiper('.swiper__icons', {
     slidesPerView: 1,
     centeredSlides: true,
+    slideToClickedSlide: true,
     spaceBetween: 50,
     breakpoints: {
         480: { slidesPerView: 2, spaceBetween: 15 },
