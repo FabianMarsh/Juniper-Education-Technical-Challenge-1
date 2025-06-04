@@ -231,7 +231,7 @@ body {
     gap: 60px;
     overflow: hidden;
 
-    padding: 100px 5%;
+    padding: 0px 5% 100px;
 
     position: relative;
     z-index: 0;
