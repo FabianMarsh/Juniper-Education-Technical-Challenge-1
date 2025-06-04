@@ -147,11 +147,7 @@ header {
     transition: background 0.3s ease-in-out;
 }
 
-/* swiper */
-
-/* .swiper {
-    overflow-x: hidden !important;
-} */
+/* swiper *********************************************/
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -275,6 +271,7 @@ body {
     z-index: 2;
     height: 210px;
     overflow: visible;
+    padding: 0 10%;
 
     cursor: pointer;
 }
