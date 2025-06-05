@@ -424,6 +424,13 @@ body {
 .numbers__lists__buttons {
     display: flex;
     gap: 25px;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
+}
+
+@media (min-width: 758px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        top: 470px;
+    }
 }
