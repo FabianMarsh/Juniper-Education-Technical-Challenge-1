@@ -286,14 +286,6 @@ body {
     z-index: 0;
 }
 
-.numbers__lists__icons {
-    position: relative;
-    z-index: 1;
-    padding: 0;
-    width: fit-content;
-    margin-top: 5px;
-}
-
 .numbers__lists__icons__items {
     display: flex;
     justify-content: center;
