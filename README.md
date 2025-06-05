@@ -1,7 +1,7 @@
-# Tower House by Numbers - Swiper Integration
+# Technical Challenge 1 - Swiper Integration
 
 ## Overview
-The **Tower House by Numbers** section is an interactive component utilizing **Swiper.js** to create a synchronized slider experience. Users can **swipe or click** on icons, and both the **icons slider** and **cards slider** update in sync, ensuring a seamless navigation experience.
+The **Technical Challenge 1** section is an interactive component utilizing **Swiper.js** to create a synchronized slider experience. Users can **swipe or click** on icons, and both the **icons slider** and **cards slider** update in sync, ensuring a seamless navigation experience.
 
 ## Features
 - **Dual Swiper Sliders** - One for icons and one for corresponding informational cards.
